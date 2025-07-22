@@ -1,12 +1,24 @@
-# React + Vite
+# Attori e Attrici - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Questo è un progetto React che consente di visualizzare informazioni su attori e attrici, recuperate da due API esterne. Gli utenti possono filtrare i risultati in base al nome e selezionare tra attori, attrici o entrambi tramite un sistema di radio buttons.
 
-Currently, two official plugins are available:
+## Funzionalità
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Visualizza un elenco di attori e attrici con informazioni dettagliate.
+- Seleziona la visualizzazione tra **Attori**, **Attrici**, o **Entrambi** tramite radio button.
+- Filtra gli attori/attrici per **nome** tramite un input di testo.
+- Le informazioni visualizzate includono: **Nome**, **Anno di nascita**, **Nazionalità**, **Biografia**, e **Premi**.
+- Le immagini degli attori e delle attrici sono visualizzate come thumbnail in formato card.
 
-## Expanding the ESLint configuration
+## Tecnologie utilizzate
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** - Libreria JavaScript per la costruzione di interfacce utente.
+- **Bootstrap** - Framework CSS per il design responsive e la formattazione delle card.
+- **Fetch API** - Per recuperare dati dalle API esterne.
+
+## API
+
+Il progetto utilizza le seguenti API:
+
+- [API Attrici](https://lanciweb.github.io/demo/api/actresses/)
+- [API Attori](https://lanciweb.github.io/demo/api/actors/)
