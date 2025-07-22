@@ -1,4 +1,15 @@
-.card-img-top {
-  height: 400px; 
+body{
+  background-color: black;
+}
+
+
+
+.card-img {
+  height: 350px; 
   object-fit: cover;
+}
+
+.filter-div{
+  top: 36%;
+  right: 13%;
 }
